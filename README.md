@@ -22,4 +22,9 @@ Type casting comes in picture when we try to assign primitive data type to anoth
  - in this case we don't need to do anything , computer implicitly convert smaller type to larger type size.
 
 ### Narrowing casting :  
- - in this case we manually convert a larger type to smaller type size.
+ - in this case we manually convert a larger type to smaller type size.  
+
+ ![example image](./type%20casting.png)
+
+Non-primitive data types are such as Strings,Arrays,classes,interfaces ... etc
+
