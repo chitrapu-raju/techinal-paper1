@@ -1,6 +1,6 @@
 # Data types and Data Structures
 
-## Introduction :
+## Introduction to Data types :
 Java is statically type language where each variable and expression type we must know before hand so we must have an idea on the data types we are gonna use.  
 We have two types of data types present in java  
 - Primitive Data types 
@@ -28,3 +28,5 @@ Type casting comes in picture when we try to assign primitive data type to anoth
 
 Non-primitive data types are such as Strings,Arrays,classes,interfaces ... etc
 
+## Introduction to Data Structures :
+Data structures provides  an efficient way of storing and organising the data.These are widely used in almost every aspect of Computer Science. They play a vital role in improve the performance of a software or program and selecting the appropriate data structure is one of the most important task for a programmer.
