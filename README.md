@@ -60,4 +60,13 @@ Types of linked list :
  - Doubly Linked List : each node store two references , one points to the next node and other points to the previous node.
     - Ex : NULL <-> 5 <-> 6 <-> 7 <-> NULL  
  - Circular Linked List : where all nodes forms a cirle it can be singly circular or doubly circular linked list.
-    - Ex : 5 -> 6 -> 7 -> 5
+    - Ex : 5 -> 6 -> 7 -> 5  
+
+### 3. Stack :  
+A Stack is a collection of elements that store entities as last in first out (LIFO) manner, with two basic principles which add elements and remove elements.
+ - Ex : Stacks are used maintaining function calls  
+
+### 4.Queue : 
+A Queue is a collection of elements that store entities as first in first out (FIFO) manner,  with two basic principles
+ - enqueue : the elements added from the rear side
+ - dequeue : elements removed from the front side.
