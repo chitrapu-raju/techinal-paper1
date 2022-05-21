@@ -146,7 +146,7 @@ Code Example :
     {
         PriorityQueue<Integer> prQ = new PriorityQueue<Integer>();
   
-        // Adding items to the prQ using add()
+        // Adding items to the priorityQueue using add()
         prQ.add(6);
         prQ.add(5);
         prQ.add(15);
@@ -155,7 +155,7 @@ Code Example :
         System.out.println(prQ.peek());
   
         // Printing the top element and removing it
-        System.out.println(prQu.poll());
+        System.out.println(prQ.poll());
   
         // Printing the top element again
         System.out.println(prQ.peek());
