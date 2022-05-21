@@ -159,10 +159,23 @@ Code Example :
   
         // Printing the top element again
         System.out.println(prQ.peek());
-    }  
+    }   
+
+
+### Short Note On Non-Linear Data Structures :  
+
+Unlike linear Data Structures in non-linear data structures data elements are not arranged in contigous manner,as the arrangement in nonsequential, so we cannot access and traverse in a single run.In the case of linear data structures element is connected to two elements , where as in non-linear data structure the element can be connected to more than  two elements. There are two types of non-linear data structure   
+ - Tree  
+  - Graphs
 
 Reference Links : 
 
 [Overview of Data Structures from Geek For Geeks](https://www.geeksforgeeks.org/overview-of-data-structures-set-1-linear-data-structures/)  
 
-[Study Data Structures from Javatpoint](https://www.javatpoint.com/data-structure-tutorial)
+[Study Data Structures from Javatpoint-1](https://www.javatpoint.com/data-structure-tutorial)
+
+[Study Data Structures from Javatpoint-2](https://www.javatpoint.com/linear-vs-non-linear-data-structure)
+
+[Graphs and its representation](https://www.geeksforgeeks.org/graph-and-its-representations/?ref=lbp)  
+
+[Introduction to Tree Data Structure](https://www.geeksforgeeks.org/introduction-to-tree-data-structure/) 
