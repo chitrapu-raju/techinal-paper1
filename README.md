@@ -159,4 +159,10 @@ Code Example :
   
         // Printing the top element again
         System.out.println(pQueue.peek());
-    }
+    }  
+
+Reference Links : 
+
+[Overview of Data Structures from Geek For Geeks](https://www.geeksforgeeks.org/overview-of-data-structures-set-1-linear-data-structures/)  
+
+[Study Data Structures from Javatpoint](https://www.javatpoint.com/data-structure-tutorial)
