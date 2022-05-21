@@ -53,18 +53,7 @@ Some of the popular linear data structures are
 
 Code Example :  
 
-
-    public static void main(String[] args) {
-        int[] intArray = { 1,2,3,4,5}; //declaring array with integers by using array literals
-        for(int i=0;i<intArray.length;i++){
-            System.out.println("Element at index "+i+" : "+intArray[i]);
-        }
-        String [] stringArray = {"Ajay","Ram","Sam","Vinay"}; //declaring array with strings by using array literals
-        for(int i=0;i<stringArray.length;i++){
-            System.out.println("Element at index "+i+" : "+stringArray[i]);
-        } 
-      };
-
+![example image](./arrays.png)
 
 ### 2. Linked List :  
 Linked list is collection elements where each element as a seperate node and stored at non-contigous locations , each node consists of reference to the other nodes.  
@@ -76,63 +65,18 @@ Types of linked list :
  - Circular Linked List : where all nodes forms a cirle it can be singly circular or doubly circular linked list.
     - Ex : 5 -> 6 -> 7 -> 5  
 
-Code Example : 
+Code Example :  
 
-
-    public static void main(String[] args)
-    {
-  
-        LinkedList<Integer> llist = new LinkedList<Integer>();
-  
-        // Appending new elements at the end
-        for (int i = 1; i <= 5; i++)
-            llist.add(i);
-  
-        System.out.println(llist);
-  
-        llist.remove(3);
-        // after deletion
-        System.out.println(llist);
-  
-        // Printing elements one by one
-        for (int i = 0; i < llist.size(); i++)
-            System.out.print(llist.get(i) + " ");
-    }
+![example image](./linked%20list.png)
 
 ### 3. Stack : 
 A Stack is a collection of elements that store entities as last in first out (LIFO) manner, with two basic principles which add elements and remove elements.
 - Ex : Stacks are used maintaining function calls    
 
 Code Example :  
-  
 
-    public static void main(String args[])
-    {
-        Stack<String> stack = new Stack<String>();
-        stack.push("Ram");
-        stack.push("Sam");
-        stack.push("Vinay");
-        stack.push("Prem");
- 
-        Iterator<String> itr = stack.iterator();
+![example image](./stack.png)
   
-        // Printing the stack
-        while (itr.hasNext()) {
-            System.out.print(itr.next() + " ");
-        }
-  
-        System.out.println();
-  
-        stack.pop();
-  
-        // Iterator for the stack
-        itr = stack.iterator();
-  
-        // Printing the stack
-        while (itr.hasNext()) {
-            System.out.print(itr.next() + " ");
-        }
-    }
 
 ### 4.Queue : 
 A Queue is a collection of elements that store entities as first in first out (FIFO) manner, with two basic principles
@@ -141,26 +85,7 @@ A Queue is a collection of elements that store entities as first in first out (F
 
 Code Example :  
 
-    public static void main(String args[])  
-
-    {
-        PriorityQueue<Integer> prQ = new PriorityQueue<Integer>();
-  
-        // Adding items to the priorityQueue using add()
-        prQ.add(6);
-        prQ.add(5);
-        prQ.add(15);
-  
-        // Printing the top element of PriorityQueue
-        System.out.println(prQ.peek());
-  
-        // Printing the top element and removing it
-        System.out.println(prQ.poll());
-  
-        // Printing the top element again
-        System.out.println(prQ.peek());
-    }   
-
+![example image](./queue.png)
 
 ### Short Note On Non-Linear Data Structures :  
 
